@@ -3,7 +3,7 @@ package util;
 
 public class CardFactory {
 
-	private static CardFactory cardFatory = new CardFactory();
+	private final static CardFactory cardFatory = new CardFactory();
 	
 	
 	private CardFactory(){
